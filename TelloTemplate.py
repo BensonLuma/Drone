@@ -43,6 +43,9 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
+def flip():
+    sendmsg('flip f')
+
 #Square Function with a for loop
 def square():
     for i in range(4):
@@ -65,7 +68,8 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        square()
+        #square()
+        flip()
 
         sendmsg('land')
 

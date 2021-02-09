@@ -48,13 +48,15 @@ def firsthoop():
     sendmsg('up 75')
     sendmsg('forward 200')
 # drones mission through the second hoop
-def secondhoop():
+#def secondhoop():
+    #sendmsg('go 300 0 100 75')
+
 
 # drones mission through the third hoop and yaw
-def thirdhoopyaw():
+#def thirdhoopyaw():
 
 # drones mission through the fourth hoop
-def fourthhoop():
+#def fourthhoop():
 
 
 print("\nBenson Luma")
@@ -72,7 +74,6 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        #square()
         firsthoop()
 
 

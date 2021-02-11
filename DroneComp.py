@@ -45,8 +45,8 @@ recvThread.start()
 
 # drones mission through the first hoop
 def firsthoop():
-    sendmsg('up 75')
-    sendmsg('forward 200')
+
+    sendmsg('forward 220')
 # drones mission through the second hoop
 #def secondhoop():
     #sendmsg('go 300 0 100 75')

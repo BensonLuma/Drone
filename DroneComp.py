@@ -48,8 +48,8 @@ def firsthoop():
 
     sendmsg('forward 220')
 # drones mission through the second hoop
-#def secondhoop():
-    #sendmsg('go 300 0 100 75')
+def secondhoop():
+    sendmsg('go 300 0 100 75')
 
 
 # drones mission through the third hoop and yaw
@@ -75,8 +75,8 @@ try:
         sendmsg('takeoff')
 
         firsthoop()
-
-
+        secondhoop()
+        
 
         sendmsg('land')
 
